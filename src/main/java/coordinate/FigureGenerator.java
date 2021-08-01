@@ -15,6 +15,9 @@ public class FigureGenerator {
         if(points.size() == 4){
             return new Rectangle(points);
         }
+        if(points.size() == 3){
+            return new Triangle(points);
+        }
         throw new IllegalArgumentException();
     }
 }
