@@ -17,7 +17,7 @@ class LineTest {
     }
     @Test
     void 정확한_계산() {
-        Figure figure = new Line(points);
+        Figure figure = new FigureGenerator().setFigure(points);
         assertThat(figure.calculateDistance()).isEqualTo(6.4031242374328485);
     }
 }

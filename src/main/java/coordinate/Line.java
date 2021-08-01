@@ -15,7 +15,7 @@ public class Line extends FigureHub {
 
     @Override
     public String getDistance() {
-        String result = "거리 : " + calculateDistance();
+        String result = "두 점 사이 거리는 : " + calculateDistance();
         return result;
     }
 }
