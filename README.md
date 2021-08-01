@@ -45,8 +45,9 @@ ex) git checkout -b apply-feedback
 2. 연료주입(인터페이스)
    - 기능은 동일
    - 그러나 인터페이스에 기존 4개의 메소드를 다 넣으면 주입해야 할 연료량의 경우 매번 오버라이딩을 해야해서 중간 다리 역할이 하나 필요할 것 같음
-
 <br><br>
+
+
 [공부]  
 1. 디자인 패턴 - factory method(팩토리 메소드)
    - https://niceman.tistory.com/143 참고
